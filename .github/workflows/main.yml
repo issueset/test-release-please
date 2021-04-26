@@ -23,11 +23,11 @@ jobs:
           release-type: node
           package-name: ""
 
-      - name: install
-        run: |
-          yarn install
+      # - name: install
+      #   run: |
+      #     yarn install
 
-      - name: release
-        run: yarn run release-it
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: release
+      #   run: yarn run release-it
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
