@@ -1,0 +1,22 @@
+name: main
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  Release:
+    runs-on: ubuntu-18.04
+    needs: [Build, Test, Lint, Preview]
+    if: github.ref == 'refs/heads/main'
+    steps:
+
+      - name: Checkout code repository
+        uses: actions/checkout@v2
+
+      - id: step_release_please
+        uses: GoogleCloudPlatform/release-please-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
