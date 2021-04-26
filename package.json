@@ -1,6 +1,6 @@
 {
   "name": "test-release-please",
-  "version": "1.2.0",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "https://github.com/issueset/test-release-please.git",
   "author": "ocavue <ocavue@gmail.com>",
