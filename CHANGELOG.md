@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/issueset/test-release-please/compare/v1.1.0...v1.1.1) (2021-04-26)
+
+
+### Bug Fixes
+
+* 03 ([2935107](https://www.github.com/issueset/test-release-please/commit/2935107fd55ccc576434c1971a8c0928187582c9))
+
 ## [1.1.0](https://www.github.com/issueset/test-release-please/compare/v1.0.0...v1.1.0) (2021-04-26)
 
 
