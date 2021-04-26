@@ -1,6 +1,6 @@
 {
   "name": "test-release-please",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "main": "index.js",
   "repository": "https://github.com/issueset/test-release-please.git",
   "author": "ocavue <ocavue@gmail.com>",
@@ -8,7 +8,9 @@
   "devDependencies": {
     "release-it": "^14.6.1"
   },
-  "release-it": {"npm": {
-    "publish": false
-  }}
+  "release-it": {
+    "npm": {
+      "publish": false
+    }
+  }
 }
