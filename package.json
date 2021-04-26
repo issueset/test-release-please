@@ -11,6 +11,13 @@
   "release-it": {
     "npm": {
       "publish": false
+    },
+    "github": {
+      "release": true
+    },
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
     }
   }
 }

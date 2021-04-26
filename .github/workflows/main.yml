@@ -13,6 +13,8 @@ jobs:
 
       - name: Checkout code repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       - id: step_release_please
         uses: GoogleCloudPlatform/release-please-action@v2
@@ -20,3 +22,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: ""
+
+      - name: install
+        run: |
+          yarn install
+
+      - name: release
+        run: |
+          yarn install
