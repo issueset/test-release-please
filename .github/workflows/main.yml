@@ -28,5 +28,6 @@ jobs:
           yarn install
 
       - name: release
-        run: |
-          yarn install
+        run: yarn run release-it
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
