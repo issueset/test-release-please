@@ -20,8 +20,7 @@ jobs:
         uses: GoogleCloudPlatform/release-please-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: node
-          package-name: ""
+          release-type: simple
 
       # - name: install
       #   run: |
