@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/issueset/test-release-please.git",
   "author": "ocavue <ocavue@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "release-it": "^14.6.1"
+  },
+  "release-it": {"npm": {
+    "publish": false
+  }}
 }
